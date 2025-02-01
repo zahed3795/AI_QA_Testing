@@ -1,0 +1,175 @@
+# Compiled Python Bytecode
+*.py[cod]
+
+# Editors
+.vscode/
+../.idea/
+.idea
+.idea/*
+.project
+.pydevproject
+.vscode
+
+# Packages
+*.egg
+*.egg-info
+.eggs
+eggs
+develop-eggs
+bin
+build
+dist
+lib
+lib64
+parts
+sdist
+var
+.installed.cfg
+__pycache__
+
+#Ignore Firefox/gecko driver
+geckodriver*
+
+#setup files
+
+output
+rerun.xml
+
+#Temp files
+~$*
+
+#zip Ignore
+*.zip
+
+# Web Drivers
+MicrosoftWebDriver.exe
+IEDriverServer.exe
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+operadriver.exe
+
+# msedgedriver requirements [we are not using, but soon will]
+libc++.dylib
+
+# Vagrant
+.vagrant/
+
+# Windows
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*$py.class
+
+# C chrome_extension
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+.swp
+
+# Environments
+.env
+.venv
+VENV/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+mkvirtualenv
+
+# Blocking Framework Files
+__version__.py
+LICENSE.txt
+
+# Screenshots
+.png
+png
+*.png
+.jpg
+jpg
+*.jpg
+
+# py.test
+.cache/*
+.pytest_cache/*
+.pytest_config
+
+# Logs
+logs
+latest_logs
+log_archives
+archived_logs
+geckodriver.log
+pytestdebug.log
+
+# Reports RF + selenium_pytest
+log.html
+output.xml
+report.html
+dashboard.html
+
+# Other [Soon we will add]
+selenium-server-standalone.jar
+assets
+temp
+temp_*/
+node_modules
+/screenshot
+*/screenshot
+/screenshot/*
+saved_presentations
+saved_presentations/
+archive/
+archive
+
+# Pabot
+pabot/
+.pabot/
+pabot_results
+pabot_results\
+.pabotsuitenames
+
+# Folders
+_pytest_ui_test/
+_robot_ui_test/
+
+# Ignoring robot_dir helping doc
+*.txt
+screenshot_*.html
+
+#Blocking zip
+
+# Ignore Readme
+
+# Setting file for selenium
+*.lock
+
+# Blocking junit XML report
+*.xml

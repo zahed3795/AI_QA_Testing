@@ -1,0 +1,83 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automation"
+version = "0.0.1"
+
+dependencies = [
+    #"allure-robotframework>=2.13.5",
+    "beautifulsoup4==4.10.0",
+    "bs4==0.0.2",
+    "cssselect==1.2.0",
+    "colorama>=0.4.6",
+    "fasteners==0.18",
+    "numpy==2.2.2",
+    #"robotframework==7.1",
+    #"robotframework-pabot==4.0.6",
+    #"robotframework-pythonlibcore==4.4.1",
+    #"robotframework-requests==0.9.5",
+    #"robotframework-seleniumlibrary==6.6.1",
+    #"robotframework-datadriver[xls]",
+    #"robotframework-excellib",
+    #"robotframework-faker==5.0.0",
+    #"robotframework-jsonlibrary==0.5",
+    #"robotframework-jsonvalidator==2.0.0",
+    #"robotframework-robocop==4.0.1",
+    #"robotframework-debuglibrary==2.5.0",
+    #"robotframework-metrics==3.3.3",
+    #"robotframework-imaplibrary==0.3.0",
+    #"robotframework-tidy==4.3.0",
+    #"robotframework-appiumlibrary==2.0.0",
+    #"robotframework-assertion-engine==3.0.3",
+    #"robotframework-dependencylibrary==4.0.1",
+    #"robotframework-screencaplibrary==1.5.1",
+    #"robotframework-autorecorder==0.1.5",
+    "pandas==2.2.3",
+    "pluggy==1.5.0",
+    "pip",
+    "packaging==23.2",
+    "pyodbc==5.2.0",
+    "setuptools==70.2.0",
+    "wheel==0.42.0",
+    "psutil==5.9.4",
+    "python-dotenv==1.0.1",
+    "PyYAML",
+    #"snowflake==1.0.4",
+    #"pandasai-snowflake==0.1.4",
+    #"snowflake-connector-python",
+    #"snowflake-connector-python[pandas]",
+    #"'apache-airflow==2.10.5' apache-airflow-providers-google==10.1.0",
+    #"dbt-core dbt-snowflake",
+]
+#requires-python = ">=3.8"
+authors = [
+  {name = "Zahed Khan", email = "zahedkhan3795@gmail.com"},
+]
+maintainers = [
+  {name = "Zahed Khan", email = "zahedkhan3795@gmail.com"}
+]
+description = "QA Automation Framework"
+readme = "README.md"
+#license = "MIT"
+#license-files = ["LICEN[CS]E.*"]
+keywords = ["robotframework", "PyTest", "ai", "test", "qa", "automation"]
+classifiers = [
+  "Development Status :: 1 - Beta",
+  "Programming Language :: Python"
+]
+[project.urls]
+Homepage = "https://github.com/zahed3795/AI_QA_Testing"
+Documentation = "https://github.com/zahed3795/AI_QA_Testing/docs"
+Repository = "https://github.com/zahed3795/AI_QA_Testing.git"
+Changelog = "https://github.com/zahed3795/AI_QA_Testing"
+
+[project.scripts]
+automation = "package.console_scripts.run:main_cli"
+
+#[project.gui-scripts]
+#automation = "package.console_scripts.run:main_cli"
+
+#[project.entry-points."spam.magical"]
+#automation = "package.console_scripts.run:main_cli"
