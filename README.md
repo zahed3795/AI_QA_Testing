@@ -81,12 +81,9 @@ git pull
 python.exe -m pip install --upgrade pip
 py -m pip install -e . --trusted-host pypi.org --trusted-host files.pythonhosted.org
 ```
-
 * (For re-installation use --><code>py -m pip install -e. --force-reinstall</code>)
 
 * (For upgrade use --> <code>py -m pip install -e. --upgrade</code>)
-
-* (For checking version use --> <code>guild -version</code>)
 
 **3. Upgrade existing installation:**
 
