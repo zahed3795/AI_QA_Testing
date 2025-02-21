@@ -12,7 +12,8 @@ echo:   **** Installation started ****
  python.exe -m pip install --upgrade pip
 
 :: Install the current package in editable mode with trusted hosts
-py -m pip install -e . --trusted-host pypi.org --trusted-host files.pythonhosted.org --use-pep517 --config-settings="editable_mode=compat"
+py -m pip install -e . --trusted-host pypi.org --trusted-host files.pythonhosted.org
+::--use-pep517 --config-settings="editable_mode=compat"
 
 automation
 
