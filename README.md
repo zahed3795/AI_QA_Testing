@@ -4,11 +4,11 @@
 <meta property="og:keywords" content="Python, pytest, selenium, webdriver, test automation, testing, AI Testing, test framework, RPA, reports, website tours, presentations">
 
 <p align="center">
-<b>IT QA friendly AI driven automation framework!</b>
+<b>IT QA friendly AI driven Test Automation Framework!</b>
 </p>
 
 <p align="center">
-All in one framework that supports Web, API, Database, and Mobile app automation testing 👨‍💻
+All-in-one framework that supports Web, API, Database, and Mobile app automation testing 👨‍💻
 </p>
 
 <p align="center"> 
