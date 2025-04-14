@@ -21,10 +21,9 @@ All in one framework that supports Web, API, Database, and Mobile app automation
 <img src="https://img.shields.io/badge/release-v0.0.1-brightgreen" alt="Latest Release on GitLab" /></a>
 </p>
 
+------
 
-------
 <p> 🧬 How it works? </p>
-------
 
 The AI Test Automation Framework is a Python-based QA testing framework that organizes and hosts multiple 
 types of frameworks in an isolated system. It incorporates test runners such 
